@@ -1,4 +1,5 @@
 # fix some problem
+sudo pip install --upgrade django
 sudo rm /etc/nginx/sites-enabled/default
 # nginx
 sudo ln -sf /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/default
